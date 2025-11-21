@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hidden Gift</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <section class="hero">
+    <div class="wrap">
+      <div class="header">
+        <div style="font-size: 1.8rem;">🎁</div>
+        <div class="title">This isn’t a present. It’s a path.</div>
+      </div>
+      <p class="sub">Follow the quiet. Start with the code. End with me.</p>
+      <button onclick="startJourney()">Begin the journey</button>
+
+      <div id="stage" style="display:none">
+        <div id="riddleBlock"></div>
+        <div id="noteBlock"></div>
+        <div id="questionBlock"></div>
+        <div id="finalTrigger" style="display:none">
+          <button onclick="goToFinal()">Finish the journey</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+
